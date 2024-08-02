@@ -2,37 +2,31 @@
   box-sizing: border-box;
 }
 
-
 body {
   background: #EBE9E6;
-  border: 2px solid #b7cbd1;
-  width: 1440px;
-  height: auto;
-  margin: auto;
 }
 
-/* header css */
+/* header-row css */
 
-.header {
+.header-row {
   display: flex;
   align-items: center;
   height: 72px;
   background: #FCFAFA;
   justify-content: center;
-  margin: auto;
+  padding: 18px 0px;
   max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  
   
 }
 
-/* 3 img */
-.LogoGrp {
-  /* margin-left: 530px; */
+/*  1-img */
+/* .LogoGrp {
   width: 56px;
-  height: 36px;
   margin-top: 18px;
   margin-bottom: 18px;
-  
-
 }
 
 .Logo {
@@ -41,6 +35,14 @@ body {
   font-size: 28.736px;
   font-weight: 700;
   margin-bottom: 5px;
+} */
+
+.img {
+  display: flex;
+  width: 112px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
 }
 
 .second-page-header {
@@ -73,17 +75,14 @@ body {
 
 
 /* portal css */
-.portal-1{
-  display: flex;
-  justify-content: center;
-}
+/* / */
 
 h1 {
   text-align: center;
   color: #4C4B49;
   font-family: Inter;
   font-size: 24px;
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: 600;
   line-height: 120%;
   letter-spacing: -0.48px;
@@ -97,8 +96,6 @@ h1 {
   height: 620px;
   margin: auto;
   background-color: white;
-
-
 } 
 
 .portal-box2 {
@@ -111,6 +108,16 @@ h1 {
   margin-top: 40px;
   margin-bottom: 16px;
 } 
+
+
+p {
+  color: #000;
+  /* text-align: center; */
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
 
 ul {
   color: #4C4B49;
@@ -150,7 +157,7 @@ hr {
 
 }
 
-.btn {
+.portal-btn {
   padding: 16px 35px;
   margin-left: 40%;
   border-radius: 10px;
@@ -161,7 +168,7 @@ hr {
 
 
 
-.footer {
+.footer{
   display: flex;
   margin: auto;
   height: 171px;
@@ -170,6 +177,7 @@ hr {
   background: #4C4B49;
   margin-top: 143px;
   max-width: 1440px;
+  padding: 46px 0px 68px 0px;
 
 }
 
@@ -198,3 +206,104 @@ hr {
   color: white;
 }
 
+/* submission */
+.submission-box1 {
+  width: 705px;
+  height: auto;
+  border: 1px solid rgb(231, 234, 238);
+  background-color: white;
+  margin: auto;
+  margin-top: 103px;
+
+}
+
+.tick {
+  margin: auto;
+  width: 28px;
+  height: 28px; 
+  background-color: #88BE37;
+  border-radius:15px;
+  padding:4px 8px;
+  margin-top: 93px;
+}
+
+
+
+.submission-box2 {
+  width: 320px;
+  height: auto;
+  margin: auto;
+}
+
+.submission-box2,
+h1 {
+  color:#1F1E1C;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120%;
+  margin-top: 22px;
+}
+
+.submission-box2,
+h2 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.submission-box2,
+p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+
+.Score-btn {
+  width: 222px;
+  height: 54px;
+  margin-top: 89px;
+  margin-bottom: 108px;
+  padding: 16px 35px;
+  margin-left: 230px;
+  border-radius: 10px;
+  border: 2px solid #F4D150;
+  background: #FEEEB4;
+  box-shadow: 0px 4px 7px 0px #B3AE9C;
+}
+
+
+/* Mobile view */
+@media (max-width: 767px) {
+  .submission-box1 {
+      width: 320px;
+      height: auto;
+  }
+
+  .submission-box2,
+  h2 {
+      margin-top: 36px;
+  }
+  
+  .Score-btn {
+      margin-left: 50px;
+      margin-bottom: 60pxpx;
+      margin-top: 50px;
+  }
+
+  .submission-box2 {
+      width: 280px;
+  }
+
+  .tick {
+      margin-top: 60px;
+      margin-bottom: 57px;
+  }
+}

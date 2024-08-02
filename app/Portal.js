@@ -18,15 +18,13 @@ const Portal = () => {
                                 <li>Review: After submission, you may review your answers and scores.</li>
                             </ul>
                             <p>Please ensure a stable internet connection. If you encounter any issues, contact support immediately.</p>
-                            <p className="click">Click 'Let's Start' to begin the test.
-                            </p><Link href="Assessment">
-                            {/* <button className="btn">Let's Start</button> */}
-                        </Link>
+                            <p className="click">Click 'Let's Start' to begin the test.</p>
+                        
                             <h4>Good Luck!</h4>
                         </div>
                         <hr />
                         <Link href="Assessment">
-                            <button className="btn">Let's Start</button>
+                            <button className="portal-btn">Let's Start</button>
                         </Link>
                     </div >
                 </div>

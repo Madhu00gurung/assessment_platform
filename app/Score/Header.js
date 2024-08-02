@@ -7,9 +7,9 @@ const Header = () => {
 			    <img className="LogoGrp" src="Logo Grp.svg"/>
                 <img className="Logo" src="/QA (1).svg"/>
 			</div>
-			<Link href="Submitted">
+			{/* <Link href="Submitted">
 				<button className="submit-btn">Submit</button>
-			</Link>
+			</Link> */}
 		</div>
 	);
 };
